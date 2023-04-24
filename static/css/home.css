@@ -1,0 +1,31 @@
+body{
+    position: relative;
+
+height: 5935px;
+overflow-y: scroll;
+
+background: #11071F;
+}
+
+#main_image{
+    box-sizing: border-box;
+position: absolute;
+width: 67.04px;
+height: 70px;
+left: 300px;
+top: 20px;
+border: 1px solid rgba(255, 255, 255, 0.81);
+border-radius : 48px;
+}
+
+#search{
+    box-sizing: border-box;
+position: absolute;
+width: 410px;
+height: 36px;
+left: 500px;
+top: 40px;
+background: #1A0B2E;
+border: 1px solid #FFFFFF;
+border-radius: 17px;    
+}
