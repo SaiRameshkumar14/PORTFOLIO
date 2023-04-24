@@ -4,9 +4,7 @@
 body{
 
     position: relative;
-    height: 5935px;
-    overflow-y: scroll;
-    
+    /*overflow-y: scroll;*/
     background: linear-gradient(to right,#1e073d,#53004d);
 
    /* #main_image
@@ -32,4 +30,40 @@ body{
         border: 1px solid rgba(255, 255, 255, 0.81);
         border-radius : 48px;
     }
+
+#navelements{
+    cursor: pointer;
+    display: flex;
+    color: white;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: relative;
+    top: 5vh;
+    justify-content: space-around;
+    list-style: none;
+    font-size: 110%;
+    font-family: system-ui;
+    gap: 2vw;
+    width: 50%;
+    left: 30vw;
+}
+
+#active{
+    color: bisque;
+    text-transform: uppercase;
+}
+
+#navelements li:hover{
+    text-transform: uppercase;
+}
+
+#cartoon_boy{
+    position: relative;
+    left: 20%; 
+    top: 200px;
+    position: absolute;
+background: radial-gradient(50% 50% at 50% 50%,
+ #FFFFFF 50%, rgba(67, 67, 67, 0) 100%);   
+}
+
 
