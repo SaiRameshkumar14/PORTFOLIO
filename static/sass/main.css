@@ -1,0 +1,138 @@
+
+
+
+body{
+
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    height: 5000px;
+    /*overflow-y: scroll;*/
+    background: linear-gradient(to right,#1e073d,#53004d);
+
+   /* #main_image
+    {
+        box-sizing: border-box;
+        position: absolute;
+        width: 67.04px;
+        height: 70px;
+        left: 300px;
+        top: 20px;
+        border: 1px solid rgba(255, 255, 255, 0.81);
+        border-radius : 48px;
+    }*/
+}
+
+/*---------------------------
+# Scrollbar customization
+----------------------------*/
+::-webkit-scrollbar {
+    width: 10px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: linear-gradient(rgb(8, 7, 120),rgb(169, 0, 181));
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(rgb(222, 97, 1),rgb(204, 197, 9)); 
+  }
+
+/*---------------------------
+# Scrollbar customization
+----------------------------*/
+
+/*---------------------------
+# home page start
+----------------------------*/
+
+#main_image
+    {
+        box-sizing: border-box;
+        position: absolute;
+        width : 5vw;
+        left: 18%;
+        top: 20px;
+        border: 1px solid rgba(255, 255, 255, 0.81);
+        border-radius : 48px;
+        cursor: pointer;
+    }
+
+#nav{
+    cursor: pointer;
+    display: flex;
+    color: white;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: relative;
+    justify-content: space-around;
+    list-style: none;
+    font-family: system-ui;
+    text-decoration: none;
+    }
+
+#navelements{
+    cursor: pointer;
+    text-decoration: none;
+    display: flex;
+    color: white;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: relative;
+    top: 5vh;
+    justify-content: space-around;
+    list-style: none;
+    font-size: 130%;
+    font-family: system-ui;
+    gap: 2vw;
+    width: 50vw;
+    left: 30%;
+}
+
+#active{
+    color: bisque;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+#navelements li:hover{
+    text-transform: uppercase;
+}
+
+.adbox{
+    position: relative;
+    justify-content: center;
+    align-items: center;
+width: 80%;
+height: 60vh;
+left: 10vw;
+top: 100vh;
+color: #FFFFFF;
+border-width: 10%;
+background: linear-gradient(90deg, #2B0B3A 0%, rgba(43, 11, 58, 0) 100%);
+border-style: groove;
+border-radius: 50px;
+}
+
+#cartoon_boy{
+    position: relative;
+    left: 20%; 
+    top: 300px;
+    position: absolute;
+background: radial-gradient(50% 50% at 50% 50%,
+ #FFFFFF 50%, rgba(67, 67, 67, 0) 100%);   
+}
+
+#lines1{
+    color: #FFFFFF;
+    position: relative;
+    top: -50vh;
+}
+
+/*---------------------------
+# home page end
+----------------------------*/
+
