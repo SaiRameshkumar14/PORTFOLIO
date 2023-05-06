@@ -129,7 +129,18 @@ background: radial-gradient(50% 50% at 50% 50%,
 #lines1{
     color: #FFFFFF;
     position: relative;
-    top: -50vh;
+    top: -75vh;
+}
+
+.mySlides {
+    display:none;
+    width: 100%;
+}
+.w3-left, .w3-right, .w3-badge {cursor:pointer}
+.w3-badge {
+    height:13px;
+    width:13px;
+    padding:0
 }
 
 /*---------------------------
